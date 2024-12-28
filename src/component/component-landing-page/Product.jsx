@@ -1,7 +1,7 @@
 export default function Product() {
   return (
     <>
-      <div className="bg-neutral-400">
+      <div className="">
         <h2>Product</h2>
       </div>
     </>
