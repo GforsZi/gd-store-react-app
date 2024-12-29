@@ -7,13 +7,13 @@ export default function Header() {
           <div className="flex">
             <a
               href=""
-              className="rounded-full w-10 h-10 mx-1.5 flex border-gray-700 hover:bg-neutral-900 hover:text-white justify-center items-center text-center border-2"
+              className="rounded-full w-10 h-10 mx-1.5 flex transition border-gray-700 hover:bg-neutral-900 hover:text-white justify-center items-center text-center border-2"
             >
               <p>K</p>
             </a>
             <a
               href=""
-              className="rounded-full w-10 h-10 flex mx-1.5 border-gray-700 hover:bg-neutral-900 hover:text-white justify-center items-center text-center border-2"
+              className="rounded-full w-10 h-10 flex mx-1.5 transition border-gray-700 hover:bg-neutral-900 hover:text-white justify-center items-center text-center border-2"
             >
               <p>P</p>
             </a>
@@ -24,19 +24,19 @@ export default function Header() {
         <div className="mx-12 flex justify-center h-full items-center">
           <a
             href=""
-            className="rounded-full p-1 border-gray-700 w-20 text-center border-2 mx-1.5 hover:bg-neutral-900 hover:text-white"
+            className="rounded-full p-1 border-gray-700 w-20 text-center border-2 mx-1.5 transition hover:bg-neutral-900 hover:text-white"
           >
             Add
           </a>
           <a
             href=""
-            className="rounded-full p-1 border-gray-700 w-20 text-center border-2 mx-1.5 hover:bg-neutral-900 hover:text-white"
+            className="rounded-full p-1 border-gray-700 w-20 text-center border-2 mx-1.5 transition hover:bg-neutral-900 hover:text-white"
           >
             Edit
           </a>
           <a
             href=""
-            className="rounded-full p-1 border-gray-700 w-20 text-center border-2 mx-1.5 hover:bg-neutral-900 hover:text-white"
+            className="rounded-full p-1 border-gray-700 w-20 text-center border-2 mx-1.5 transition hover:bg-neutral-900 hover:text-white"
           >
             Delete
           </a>
@@ -45,3 +45,4 @@ export default function Header() {
     </>
   );
 }
+

@@ -4,6 +4,7 @@ export default function Footer() {
     <div className="text-center bg-neutral-400">
       <p>BY Gfors</p>
     </div>
+    
     </>
     );
 }

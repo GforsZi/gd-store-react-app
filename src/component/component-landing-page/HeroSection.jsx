@@ -15,13 +15,13 @@ export default function HeroSction() {
           </a>
           <a
             href=""
-            className="rounded-lg p-1 border-gray-700 w-20 bg-neutral-200 hover:bg-neutral-300 text-center border-2 mx-1.5"
+            className="rounded-lg p-1 border-gray-700 w-20 transition bg-neutral-200 hover:bg-neutral-300 text-center border-2 mx-1.5"
           >
             Terkait
           </a>
           <a
             href=""
-            className="rounded-lg p-1 border-gray-700 w-20 bg-neutral-200 hover:bg-neutral-300 text-center border-2 mx-1.5"
+            className="rounded-lg p-1 border-gray-700 w-20 transition bg-neutral-200 hover:bg-neutral-300 text-center border-2 mx-1.5"
           >
             Terbaru
           </a>
